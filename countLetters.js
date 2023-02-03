@@ -1,4 +1,4 @@
-const assertEqual = function (actual, expected) {
+const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅✅✅ Assertion Passed: ${actual} ===  ${expected}`);
   } else {
@@ -6,21 +6,21 @@ const assertEqual = function (actual, expected) {
   }
 };
 
-const countLetters = function (str) {
+const countLetters = function(str) {
   str = str.replaceAll(' ', '');
   const counts = {};
   const newStr = str.split('');
   for (const letter of newStr) {
-      if (counts[letter]) {
-        counts[letter] += 1;
-      } else {
-        counts[letter] = 1;
-      }
+    if (counts[letter]) {
+      counts[letter] += 1;
+    } else {
+      counts[letter] = 1;
     }
+  }
   return counts;
 };
 
-const test1 = "test for today"
+const test1 = "test for today";
 const result1 = countLetters(test1);
 
 assertEqual(result1["t"], 3);
