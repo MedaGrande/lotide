@@ -17,7 +17,13 @@ const countLetters = function (str) {
         counts[letter] = 1;
       }
     }
-  console.log(counts);
+  return counts;
 };
 
-countLetters("test for today");
+const test1 = "test for today"
+const result1 = countLetters(test1);
+
+assertEqual(result1["t"], 3);
+assertEqual(result1["e"], 1);
+assertEqual(result1["s"], 1);
+assertEqual(result1["o"], 2);
