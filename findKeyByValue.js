@@ -13,6 +13,7 @@ const findKeyByValue = function (object, value) {
     }
   }
 };
+module.exports = findKeyByValue;
 
 //Testing the funtion:
 const bestTVShowsByGenre = {

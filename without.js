@@ -31,6 +31,7 @@ const without = function(array1, array2) {
   }
   return newArray;
 };
+module.exports = without;
 
 
 const price = [2, 3, 5, 8];

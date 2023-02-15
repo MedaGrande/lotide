@@ -19,6 +19,7 @@ const countLetters = function(str) {
   }
   return counts;
 };
+module.exports = countLetters;
 
 const test1 = "test for today";
 const result1 = countLetters(test1);

@@ -14,6 +14,7 @@ const letterPositions = function (sentence) {
   }
   return results;
 };
+module.exports = letterPositions;
 
 
 const eqArrays = function (array1, array2) {

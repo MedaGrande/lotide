@@ -32,6 +32,7 @@ const flatten = function(array) {
   return newArray;
   
 };
+module.exports = flatten;
 
 
 const flat = flatten([1, 2, [3, 4], 5, [6]]);
