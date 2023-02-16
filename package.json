@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@medagrande/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A mini library similar to [Lodash](https://lodash.com) and published by me as a learning project at Lighthouse Labs",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/MedaGrande/lotide.git"
   },
-  "author": "",
+  "author": "Medhanie Alene <alenemedhanie@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MedaGrande/lotide/issues"
